@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-13">
+		<attributes>
+			<attribute name="module" value="true"/>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/aopalliance-repackaged-3.0.1.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/hk2-api-3.0.1.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/hk2-locator-3.0.1.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/hk2-utils-3.0.1.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/jakarta.activation-2.0.0.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/jakarta.annotation-api-2.0.0.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/jakarta.inject-api-2.0.0.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/jakarta.json-2.0.0-module.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/jakarta.json-api-2.0.0.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/jakarta.json.bind-api-2.0.0.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/jakarta.validation-api-3.0.0.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/jakarta.ws.rs-api-3.0.0.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/jakarta.xml.bind-api-3.0.0.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/javassist-3.25.0-GA.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/jaxrs-ri-3.0.1.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/jersey-client-3.0.1.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/jersey-common-3.0.1.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/jersey-container-servlet-3.0.1.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/jersey-container-servlet-core-3.0.1.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/jersey-hk2-3.0.1.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/jersey-media-jaxb-3.0.1.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/jersey-media-json-binding-3.0.1.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/jersey-media-sse-3.0.1.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/jersey-server-3.0.1.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/osgi-resource-locator-1.0.3.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/yasson-2.0.1.jar"/>
+	<classpathentry kind="lib" path="json-simple-1.1.jar"/>
+	<classpathentry kind="lib" path="org.json-20120521.jar"/>
+	<classpathentry kind="lib" path="postgresql-42.2.18.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>
