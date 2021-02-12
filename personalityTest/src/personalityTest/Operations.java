@@ -26,19 +26,19 @@ public class Operations {
 	Statement statement = null;
 	ResultSet resultSet = null;
 
-	public JSONArray readJson() {
+	public JSONObject readJson() {
 
 		try {
 
 			jsonObject = (JSONObject) parser.parse("personality_test.json"); // Parsing json file to jsonObject
-			questions = (JSONArray) jsonObject.get("questions"); // Turning jsonObject to jsonArray to achieve data by
+			//questions = (JSONArray) jsonObject.get("questions"); // Turning jsonObject to jsonArray to achieve data by
 																	// iterations
 
 		} catch (ParseException e) {
 			e.printStackTrace();
 		}
 
-		return questions;
+		return jsonObject;
 	}
 
 	public boolean checkJsonString(String info) {

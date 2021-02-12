@@ -1,6 +1,7 @@
 package personalityTest;
 
 import org.json.simple.JSONArray;
+import org.json.simple.JSONObject;
 
 import jakarta.ws.rs.GET;
 import jakarta.ws.rs.POST;
@@ -18,7 +19,7 @@ public class PersonalityService {
 	@GET
 	@Path("/info")
 	@Produces(MediaType.APPLICATION_JSON)
-	public JSONArray getInfo() {
+	public JSONObject getInfo() {
 		return op.readJson();
 	}
 

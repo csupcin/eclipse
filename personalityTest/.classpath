@@ -39,5 +39,7 @@
 	<classpathentry kind="lib" path="org.json-20120521.jar"/>
 	<classpathentry kind="lib" path="postgresql-42.2.18.jar"/>
 	<classpathentry kind="lib" path="aopalliance-repackaged-2.4.0-b10.jar"/>
+	<classpathentry kind="lib" path="C:/Users/csupc/.eclipse/tomcat/lib/servlet-api.jar"/>
+	<classpathentry kind="lib" path="json-simple-1.1.1.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
